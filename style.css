@@ -1,0 +1,25 @@
+.section{
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 8px;
+  
+}
+.table{
+  width: 450px;
+  
+}
+tr {
+  outline: 1px solid black;
+}
+th {
+  border-right: 1px solid black;
+}
+
+td {
+  border-right: 1px solid black;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
